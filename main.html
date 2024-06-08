@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container" class="container">
+        <h1 id="game-title">Prisha's Quiz Game</h1>
+        <div class="dropdown-container" id="dropdown-container">
+            <label for="category-select">Select Subject:</label>
+            <select id="category-select">
+                <option value="" disabled selected>Select your option</option>
+                <option value="questions.json">Math</option>
+                <option value="englishquestions.json">English</option>
+            </select>
+            <button id="start-btn">Start Game</button>
+        </div>
+        <div id="question-container" style="display: none;"></div>
+        <div id="score" style="display: none;">Score: 0</div>
+        <div id="timer" style="display: none;">Time: 5:00</div>
+        <button id="next-btn" style="display: none;">Next Question</button>
+        <button id="restart-btn" style="display: none;">Restart Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

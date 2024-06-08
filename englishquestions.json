@@ -1,0 +1,25 @@
+[{
+    "question": "What is the past tense of the verb 'run'?",
+    "options": ["running", "ran", "runned", "runs"],
+    "answer": "ran"
+},
+{
+    "question": "Which word is a synonym for 'happy'?",
+    "options": ["sad", "joyful", "angry", "tired"],
+    "answer": "joyful"
+},
+{
+    "question": "Choose the correct form of the verb: She _____ to the store yesterday.",
+    "options": ["go", "goes", "went", "going"],
+    "answer": "went"
+},
+{
+    "question": "Which sentence is correctly punctuated?",
+    "options": ["I like apples, oranges and bananas.", "I like apples oranges and bananas.", "I like apples, oranges, and bananas.", "I like, apples, oranges and bananas."],
+    "answer": "I like apples, oranges, and bananas."
+},
+{
+    "question": "What is the correct possessive form of the noun 'child'?",
+    "options": ["childs", "childs'", "children", "child's"],
+    "answer": "child's"
+}]
